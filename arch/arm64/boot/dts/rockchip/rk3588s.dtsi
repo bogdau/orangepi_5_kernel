@@ -2993,6 +2993,7 @@
 		reg-shift = <2>;
 		reg-io-width = <4>;
 		dmas = <&dmac0 6>, <&dmac0 7>;
+		dma-names = "tx", "rx";
 		pinctrl-names = "default";
 		pinctrl-0 = <&uart0m1_xfer>;
 		status = "okay";
@@ -6162,6 +6163,7 @@
 		reg-shift = <2>;
 		reg-io-width = <4>;
 		dmas = <&dmac1 9>, <&dmac1 10>;
+		dma-names = "tx", "rx";
 		pinctrl-names = "default";
 		pinctrl-0 = <&uart4m1_xfer>;
 		status = "okay";
